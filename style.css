@@ -1,0 +1,90 @@
+body{
+	width: 100%;
+    margin: 0;
+	padding: 0;
+	font-size: 25px;
+	/* background-image: url(./img/bg.jpg); */
+	background-color: gray;
+	background-size: 100%;
+	text-align: center;
+}
+h1{
+    width: 100%;
+	font-size: 1.5em;
+	color: cornsilk;
+}
+
+#main{
+	margin: auto;
+	width: 65%;
+	padding: 20px;
+	background-color: rgb(192, 248, 136);
+	text-align: center;
+}
+
+#clock{
+	
+	margin-top: 20px;
+	text-align: center;	
+	font-weight: bolder;
+	color: honeydew;
+	background-color: black;
+	border: 2px solid red;
+	border-radius: 10px 5px;
+	float: left;
+}
+#text_box
+{	
+	margin-top: 20px;
+}
+input{
+    height: 50px;
+	width: 65%;
+	border-radius: 5px 5px;
+}
+button{
+	text-align: center;
+	font-weight: bold;
+    width: 20%;
+	height: 30px;
+	border-radius: 5px 5px;
+	background-color: coral;
+}
+#info{
+    
+	margin: auto;
+	padding: 10px;
+	border-style: solid;
+	border-color: rgb(50,50,50);
+	border-width: 2px 1px 2px;
+	text-align: start;	
+	background-color: cornsilk;
+	border-radius: 15px 5px;
+	margin-right: auto;
+}
+.clear{
+    clear: both;
+}
+    .desktop{display: block}
+    .mobile{display:none}
+@media screen and (max-width:850px){
+    .desktop{display: none}
+    .mobile{display:block}
+	#main{
+		width: 80%;
+	}
+	#clock, #text_box{
+        width: 100%;
+        float:none;
+	}
+	button, input{
+		width: 100%;
+		float: none;
+	};
+	#info{
+		width: 100%;
+	}
+}
+#note{
+	font-size: 10px;
+}	
